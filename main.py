@@ -18,7 +18,7 @@ tools.pack()
 
 qrCodeGenerator = ttk.Button(tools)
 qrCodeGenerator.configure(text="QR Code generator")
-qrCodeGenerator.configure(command=openQrCodeGenerator())
+qrCodeGenerator.configure(command=openQrCodeGenerator)
 qrCodeGenerator.grid(row=0, column=0)
 
 links = ttk.Frame(root)
