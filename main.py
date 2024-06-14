@@ -12,6 +12,9 @@ root = tk.Tk()
 root.title("SimpleComputeTools")
 root.geometry("500x250")
 
+tools = ttk.Frame(root)
+tools.pack()
+
 links = ttk.Frame(root)
 links.pack()
 
