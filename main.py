@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 import webbrowser
-from qrCodeGenerator import openQrCodeGenerator
+from QrCodeGenerator import openQrCodeGenerator
 
 def openYoutube():
     webbrowser.open("https://youtube.com/@aidexe.mp4")
