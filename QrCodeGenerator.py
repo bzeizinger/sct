@@ -13,9 +13,12 @@ def openQrCodeGenerator():
     contentEntry.insert(0, "Your content!")
 
     def createQrCode():
-        qrcodeDate = contentEntry.get()
+        qrcodeData = contentEntry.get()
 
-        if qrcodeDate:
+        if qrcodeData:
+            qrcode.make(qrcodeData)
+            qrcode.save("qrcode.png")
+
             contentEntry.delete(0, tk.END)
 
     createQrcodeButton = ttk.Button(qrCodeGeneratorWindow)
