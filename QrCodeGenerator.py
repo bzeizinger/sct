@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 import qrcode
+from PIL import Image, ImageTk, 
 
 def openQrCodeGenerator():
     qrCodeGeneratorWindow = tk.Tk()
